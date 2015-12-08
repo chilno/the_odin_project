@@ -1,0 +1,147 @@
+body {
+	margin: 0 auto;
+	height: 100%;
+}
+
+.topbar {
+	height: 60px;
+}
+
+
+.searchbox {
+
+	margin: 130px auto auto auto;
+	text-align: center;
+
+}
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 90px;
+	width: 270px;
+	margin-bottom: 35px;
+}
+
+.searchbar {
+	margin: 0 auto 0 auto;
+	width: 485px;
+	height: 40px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #D9D9D9;
+}
+
+#search {
+	border-style: none;
+	float: left;
+	width: 440px;
+	height: 40px;
+	padding: 0 40px 0 5px;
+	font-size: 15px;
+
+}
+
+#buttons {
+	margin-top: 35px;
+}
+
+.bt {
+	padding: 10px 20px;
+	background-color: #F2F2F2;
+	border-radius: 2px;
+	outline: none;
+	margin-right: 10px;
+	border-style: none;
+	font-weight: bold;
+	color: #757575;
+}
+
+.bt:hover {
+	color: black;
+	box-shadow: inset #D9D9D9 0 0 0 1px;
+	/*box-shadow: inset 0 0 0 1px #D9D9D9;*/
+/*	outline: solid 1px #D9D9D9;*/
+}
+
+.bt:active {
+	box-shadow: inset #D9D9D9 0 0 0 1px;
+	color: black;
+}
+
+#mic {
+	margin: 3px 0 0 -40px;
+}
+
+ul {
+	float: right;
+	height: 50px;
+}
+
+ul li {
+	position: relative;
+	font-size: 13px;
+	display: inline;
+	font-family: arial;
+	margin: 0 15px 20px 0;
+}
+
+li a {
+	text-decoration: none;
+	color: grey;
+	font-size: 14px;
+}
+
+#grid {
+	background: url(grid.png) no-repeat;
+	width: 25px;
+	height: 25px;
+	border-style: none;
+	padding-bottom: 10px;
+}
+
+#grid:hover {
+	background: url(gridh.png) no-repeat;
+}
+
+#bell {
+	background: url(bell.png) no-repeat;
+	width: 25px;
+	height: 29px;
+	padding-bottom: 10px;
+	border-style: none;
+}
+
+#bell:hover {
+	background: url(bellh.png) no-repeat;
+}
+
+#pic {
+	background: url(pic.png) no-repeat;
+	width: 33px;
+	height: 34px;
+	border-style: none;
+	padding-bottom: 10px;
+}
+
+.footer {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden; 
+	height: 50px;
+	clear: both;
+	background-color: #F2F2F2;
+	outline: solid lightgrey 1px;
+}
+
+.footer #list1 {
+	float: left;
+	text-align: center;
+}
+
+.footer .list2 {
+	float: right;
+	text-align: center;
+}

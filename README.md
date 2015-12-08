@@ -1,1 +1,3 @@
-# the_odin_project 
+# the_odin_project
+Google Replica
+theodinproject.com
